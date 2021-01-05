@@ -15,3 +15,13 @@ struct LandmarksApp: App {
         }
     }
 }
+
+struct LandmarksApp_Previews: PreviewProvider {
+    static var previews: some View {
+        HStack {
+            Text("Hello")
+                .font(.title)
+            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+        }
+    }
+}
